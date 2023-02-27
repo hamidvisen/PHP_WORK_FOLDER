@@ -1,0 +1,39 @@
+#container {margin: auto;
+width: 50%;
+border: 3px solid green;
+padding: 10px;
+padding: 70px 0;
+margin-top: 150;
+
+
+}
+#hd{
+    text-align: center;
+}
+label{
+    margin-left: 20px;
+}
+span {
+    margin-left: 20px;
+    color: red;
+}
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 5%;
+    cursor: pointer;
+    float: right;
+    font-size: larger;
+    font-weight: 700;
+background-color:rgb(195, 195, 229);
+margin-right: 20px;
+}
+
+input[type=number] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
