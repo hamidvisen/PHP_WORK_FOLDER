@@ -1,0 +1,250 @@
+*{
+    font-family:   Arial, Helvetica, sans-serif;
+    line-height: 2;
+    word-spacing: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;   
+
+}
+.con{
+    color: white;
+ /* height: 600px; */
+    text-align: center;
+    
+    
+}
+.p1{
+    
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: 100px;
+    text-shadow: 3px 3px 3px #ff0000, 0 0 3px #08ff2d;
+    margin-bottom: 0%;
+    z-index: 1;
+   
+}
+
+.p2{
+    
+   
+    font-size: 20px;
+    font-weight: 100px;
+    text-shadow: 3px 3px 3px #FF0000, 0 0 3px black;
+    
+}
+.p3{
+    margin-left: 42%;
+            margin-right: 42%; 
+            background-color: red; 
+            border-radius: 15%;
+        font-size: 20px;
+    font-weight: 100px;
+    text-shadow: 0 0 3px #FF0000, 0 0 3px black;
+    
+}
+.img1{
+    position: absolute;
+    left:0%;
+    top: 0%;
+   width:100%;
+   height: 130%;
+    z-index: -1;
+  
+   
+}
+.ca{
+    /* position: sticky; */
+   
+    
+    margin-left: 15%;
+    margin-right: 15%;
+     
+}
+a{
+    /* width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px; */
+   
+    
+}
+/* .bcard{
+    width: 100%;
+    height:fit-content;
+} */
+.card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+.input-tag{
+ display: flex;
+}
+.input-tag{
+    width:99%;
+    margin-right: 3px;
+    margin-left: 5px;
+}
+.card-body{
+    min-height: 200px;
+    max-height: 280px;
+    overflow: auto;
+}
+
+
+
+.underline{
+    border: 1px solid #000000;
+}
+.queue{
+    text-align: center;
+}
+/* .underline{
+    text-decoration: underline;
+    width: 500px;
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+} */
+.ref{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 100px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: 3;
+   
+}
+.ref1{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    font-weight: 100px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: 3;
+   
+}
+.ref:hover, .ref1:hover{
+    color:yellow;
+}
+.contact{
+    word-spacing: normal;
+    font-size: 20px;
+    font-weight: 100px;
+   
+}
+.heding_img_div {
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: 30s ease-in infinite zoomin;
+    transition: .1s ease-in-out;
+    background-size: cover
+}
+
+@-webkit-keyframes ds-scrol {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+
+    100% {
+        -webkit-transform: translateX(calc(-250px * 7));
+        transform: translateX(calc(-250px * 7))
+    }
+}
+
+@keyframes ds-scrol {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+
+    100% {
+        -webkit-transform: translateX(calc(-250px * 7));
+        transform: translateX(calc(-250px * 7))
+    }
+}
+
+.ds-sldr {
+    box-shadow: 0 10px 20px -5px rgba(0,0,0,.125);
+    height: 217px;
+    margin: auto;
+    overflow: auto;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.ds-sldr::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg)
+}
+
+.ds-sldr::before {
+    left: 0;
+    top: 0
+}
+
+.ds-sldr .ds-sldr-trk {
+    -webkit-animation: 90s linear infinite ds-scrol;
+    animation: 90s linear infinite ds-scrol;
+    display: flex;
+    width: calc(125px * 14)
+}
+
+.ds-sldr .ds-slide {
+    height: 100px;
+    width: 125px
+}
+
+.ds-slide img:hover {
+    border: 2px solid red;
+    transform: scale(2)
+}
+
+.ds-sldr .ds-sldr-trk:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+    cursor: pointer
+}
+
+@-webkit-keyframes zoomin {
+    0%,100% {
+        -webkit-background-size: 100%;
+        -ms-background-size: 100%;
+        -o-background-size: 100%;
+        -moz-background-size: 100%
+    }
+
+    50% {
+        -webkit-background-size: 120%;
+        -ms-background-size: 120%;
+        -o-background-size: 120%;
+        -moz-background-size: 120%
+    }
+}
+
+@keyframes zoomin {
+    0%,100% {
+        -webkit-background-size: 100%;
+        -ms-background-size: 100%;
+        -o-background-size: 100%;
+        -moz-background-size: 100%
+    }
+
+    50% {
+        -webkit-background-size: 120%;
+        -ms-background-size: 120%;
+        -o-background-size: 120%;
+        -moz-background-size: 120%
+    }
+}
